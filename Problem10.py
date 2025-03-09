@@ -7,6 +7,7 @@ def main():
     limit = 2000000
     total = 0
     for num in range(2, limit):
+       num += 2
        if isPrime(num):
           total += num
     print(total)
