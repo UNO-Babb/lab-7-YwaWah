@@ -5,7 +5,7 @@ from NumberTests import isPrime
 from NumberTests import getFactors
 
 def main():
-  number = 13195
+  number = 600851475143
   factors = getFactors(number)
   print(factors)
   

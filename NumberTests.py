@@ -10,7 +10,7 @@ def isThreeOrFive(n):
 
 def getFactors(num):
   factors = []
-  for f in range(1,num):
+  for f in range(1, num//2 + 1):
     if num % f == 0:
       factors.append(f)
   
