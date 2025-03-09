@@ -23,11 +23,12 @@ def isPrime(p):
   if isEven(p):
     return False
   
-  for div in range(3, p // 2, 2):
-    if p % div == 0:
+  for i in range(3, p // 2, 2):
+    if p % i == 0:
       return False
     
   return True
+
 
 def isEven(n):
   """Returns boolean about given value being even."""
